@@ -1,0 +1,1 @@
+web: ginicorn -b "0.0.0.0:$PORT" -w 3 project.wsgi release: python manage.py migrate 
